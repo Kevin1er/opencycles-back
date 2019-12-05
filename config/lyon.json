@@ -1,0 +1,23 @@
+{
+  "link": "https://download.data.grandlyon.com/wfs/rdata?SERVICE=WFS&VERSION=1.1.0&outputformat=GEOJSON&request=GetFeature&typename=jcd_jcdecaux.jcdvelov&SRSNAME=urn:ogc:def:crs:EPSG::4171",
+  "city": "Lyon",
+  "type": "json",
+  "path": "features",
+  "station": {
+    "path": "properties",
+    "id": "number",
+    "lat": "lat",
+    "lng": "lng",
+    "name": "name",
+    "address": "address",
+    "nb_bike_stands": "bike_stands"
+  },
+  "available": {
+    "link": "",
+    "path": "properties",
+    "id": "number",
+    "available_bikes": "available_bikes",
+    "available_bike_stands": "available_bike_stands",
+    "last_update": "last_update"
+  }
+}
