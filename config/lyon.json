@@ -4,20 +4,24 @@
   "type": "json",
   "path": "features",
   "station": {
-    "path": "properties",
-    "id": "number",
-    "lat": "lat",
-    "lng": "lng",
-    "name": "name",
-    "address": "address",
-    "nb_bike_stands": "bike_stands"
+    "path": "",
+    "id": "properties.number",
+    "lat": "properties.lat",
+    "lng": "properties.lng",
+    "name": "properties.name",
+    "address": "properties.address",
+    "nb_bike_stands": "properties.bike_stands",
+    "last_update": {
+      "item": "properties.last_update",
+      "format": "YYYY-MM-DD HH:mm:ss"
+    }
   },
   "available": {
     "link": "",
-    "path": "properties",
-    "id": "number",
-    "available_bikes": "available_bikes",
-    "available_bike_stands": "available_bike_stands",
-    "last_update": "last_update"
+    "path": "",
+    "id": "properties.number",
+    "available_bikes": "properties.available_bikes",
+    "available_bike_stands": "properties.available_bike_stands",
+    "last_update": "properties.last_update"
   }
 }

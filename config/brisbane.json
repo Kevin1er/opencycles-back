@@ -1,0 +1,27 @@
+{
+    "link": "https://api.jcdecaux.com/vls/v1/stations?contract=brisbane&apiKey=KEY",
+    "city": "Brisbane",
+    "type": "json",
+    "path": "",
+    "station": {
+      "path": "",
+      "id": "number",
+      "lat": "position.lat",
+      "lng": "position.lng",
+      "name": "name",
+      "address": "address",
+      "nb_bike_stands": "bike_stands",
+      "last_update": {
+        "item": "last_update",
+        "format": "unix"
+      }
+    },
+    "available": {
+      "link": "",
+      "path": "",
+      "id": "number",
+      "available_bikes": "available_bikes",
+      "available_bike_stands": "available_bike_stands",
+      "last_update": "last_update"
+    }
+  }
